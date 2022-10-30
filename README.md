@@ -1,6 +1,5 @@
 # analysis_of_parallel_algorithms
-**Counting the number of repeated characters in a string.** From the string passed to the input, you need to get a dictionary of the form "key-value", where the key is a unique character, and the value is the number of repetitions of this character in the source string.
-To solve this problem, I found a text file with the number of characters ~ 1,000,000,000, but 10,000,000 characters will be used for tests, among which 2102 are unique. In this paper, we will consider: sequential (sync), asynchronous (async) and multiprocessor (smp) methods.
+**Подсчет количества повторяющихся символов в строке.** Из строки, переданной на вход, нужно получить словарь вида "ключ-значение", где ключ - это уникальный символ, а значение - количество повторений этого символа в исходной строке. Чтобы решить эту проблему, я нашел текстовый файл с количеством символов ~ 1 000 000 000, бут 10 000 000 символов будут использоваться для тестов, среди которых 2102 являются уникальными. В этой статье мы рассмотрим: последовательный (sync), асинхронный (async) и многопроцессорный (smp) методы.
 
 ![image](https://user-images.githubusercontent.com/82733942/198885294-823cd002-f725-492a-ba79-358ae1ca52c4.png)
 ![image](https://user-images.githubusercontent.com/82733942/198885412-523555ef-bf16-4f5b-b861-ed3ca5718563.png)
